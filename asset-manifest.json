@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/bitstudy/static/css/main.45c9ad5e.chunk.css",
-    "main.js": "/bitstudy/static/js/main.190f6fae.chunk.js",
-    "main.js.map": "/bitstudy/static/js/main.190f6fae.chunk.js.map",
+    "main.js": "/bitstudy/static/js/main.8841c078.chunk.js",
+    "main.js.map": "/bitstudy/static/js/main.8841c078.chunk.js.map",
     "runtime-main.js": "/bitstudy/static/js/runtime-main.bd3dc3af.js",
     "runtime-main.js.map": "/bitstudy/static/js/runtime-main.bd3dc3af.js.map",
-    "static/js/2.47927869.chunk.js": "/bitstudy/static/js/2.47927869.chunk.js",
-    "static/js/2.47927869.chunk.js.map": "/bitstudy/static/js/2.47927869.chunk.js.map",
+    "static/js/2.b4728358.chunk.js": "/bitstudy/static/js/2.b4728358.chunk.js",
+    "static/js/2.b4728358.chunk.js.map": "/bitstudy/static/js/2.b4728358.chunk.js.map",
     "index.html": "/bitstudy/index.html",
-    "precache-manifest.46d53d48c6867c5b16139349ca3a639b.js": "/bitstudy/precache-manifest.46d53d48c6867c5b16139349ca3a639b.js",
+    "precache-manifest.1c448e49e943c7de5c86548ca5f36c91.js": "/bitstudy/precache-manifest.1c448e49e943c7de5c86548ca5f36c91.js",
     "service-worker.js": "/bitstudy/service-worker.js",
     "static/css/main.45c9ad5e.chunk.css.map": "/bitstudy/static/css/main.45c9ad5e.chunk.css.map",
-    "static/js/2.47927869.chunk.js.LICENSE": "/bitstudy/static/js/2.47927869.chunk.js.LICENSE",
+    "static/js/2.b4728358.chunk.js.LICENSE": "/bitstudy/static/js/2.b4728358.chunk.js.LICENSE",
     "static/media/car.png": "/bitstudy/static/media/car.311692cf.png",
     "static/media/logo-big.png": "/bitstudy/static/media/logo-big.0babc352.png",
     "static/media/whatsapp-512.png": "/bitstudy/static/media/whatsapp-512.6db49ff4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bd3dc3af.js",
-    "static/js/2.47927869.chunk.js",
+    "static/js/2.b4728358.chunk.js",
     "static/css/main.45c9ad5e.chunk.css",
-    "static/js/main.190f6fae.chunk.js"
+    "static/js/main.8841c078.chunk.js"
   ]
 }
