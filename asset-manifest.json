@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bitstudy/static/css/main.ab102a0b.chunk.css",
-    "main.js": "/bitstudy/static/js/main.b69de8aa.chunk.js",
-    "main.js.map": "/bitstudy/static/js/main.b69de8aa.chunk.js.map",
+    "main.js": "/bitstudy/static/js/main.3607ffec.chunk.js",
+    "main.js.map": "/bitstudy/static/js/main.3607ffec.chunk.js.map",
     "runtime-main.js": "/bitstudy/static/js/runtime-main.bd3dc3af.js",
     "runtime-main.js.map": "/bitstudy/static/js/runtime-main.bd3dc3af.js.map",
     "static/js/2.066e8327.chunk.js": "/bitstudy/static/js/2.066e8327.chunk.js",
     "static/js/2.066e8327.chunk.js.map": "/bitstudy/static/js/2.066e8327.chunk.js.map",
     "index.html": "/bitstudy/index.html",
-    "precache-manifest.a225c644041bd7b0f3d1ea3ff0200ade.js": "/bitstudy/precache-manifest.a225c644041bd7b0f3d1ea3ff0200ade.js",
+    "precache-manifest.fc94ba545316c47e154d26cca49dbeb0.js": "/bitstudy/precache-manifest.fc94ba545316c47e154d26cca49dbeb0.js",
     "service-worker.js": "/bitstudy/service-worker.js",
     "static/css/main.ab102a0b.chunk.css.map": "/bitstudy/static/css/main.ab102a0b.chunk.css.map",
     "static/js/2.066e8327.chunk.js.LICENSE": "/bitstudy/static/js/2.066e8327.chunk.js.LICENSE",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.bd3dc3af.js",
     "static/js/2.066e8327.chunk.js",
     "static/css/main.ab102a0b.chunk.css",
-    "static/js/main.b69de8aa.chunk.js"
+    "static/js/main.3607ffec.chunk.js"
   ]
 }
