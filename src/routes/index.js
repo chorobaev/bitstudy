@@ -1,19 +1,22 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import {Switch} from "react-router-dom";
+import Route from "./Route";
 
-import Menu from "../components/Menu/Menu";
-import SignIn from "../components/SignIn/SignIn";
-import Game from "../components/Game/Game";
+import Menu from "../components/menu/Menu";
+import Game from "../components/game/Game";
+import Help from "../components/help/Help";
+import About from "../components/about/About";
 
 export default function Routes() {
 
     return (
         <Switch>
-            <Route path="/" exact component={Menu} />
-            <Route path="/game" component={Game} isPrivate/>
+            <Route path="/" exact component={Menu}/>
+            <Route path="/help" component={Help}/>
+            <Route path="/game" component={Game}/>
+            <Route path="/about" component={About}/>
 
-            {/* redirect user to SignIn page if route does not exist and user is not authenticated */}
-            <Route component={SignIn} />
+            <Route component={Menu}/>
         </Switch>
     );
 }

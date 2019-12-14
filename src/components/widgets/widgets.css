@@ -1,21 +1,125 @@
 .three-d {
-    padding: 15px 30px;
+    min-width: 80px;
+    max-width: 120px;
+    width: 20vw;
+
+    padding: 0.7vw;
     background-color: #88bd57;
     color: white;
     font-weight: bold;
-    width: 10%;
     text-transform: uppercase;
-    border-radius: 8px;
+    border-radius: calc(6px + 0.1vw);
     border-width: 0;
-    border-bottom: 3px solid #6ea23e;
+    border-bottom: calc(2px + 0.1vw) solid #6ea23e;
     transition: 0.2s;
 }
 
 .three-d:active {
-    margin-top: 3px;
+    margin-top: calc(2px + 0.1vw);
     border-width: 0;
 }
 
 .three-d:focus {
     outline: none;
+}
+
+.progress-track {
+    display: flex;
+    vertical-align: bottom;
+}
+
+.progress-wrapper {
+    height: 100%;
+    width: fit-content;
+}
+
+.progress {
+    margin-left: 16px;
+    height: fit-content;
+}
+
+.track {
+    position: relative;
+    height: 20px;
+    max-width: 400px;
+    min-width: 220px;
+    flex: 1 1 0;
+    width: 75vw;
+    border-bottom: 2px dashed #fff;
+    padding-bottom: 6px;
+}
+
+.car-engine {
+    height: 100%;
+    border-radius: inherit;
+    text-align: end;
+    transition: width .2s ease-in;
+}
+
+.car {
+    width: 40px;
+    height: 30px;
+}
+
+.byte {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bit {
+    max-height: 35px;
+    min-height: 30px;
+    height: 3vw;
+    margin-top: 0;
+    margin-left: 2px;
+
+    flex: 1 1 0;
+
+    background-color: #88bd57;
+    font-size: 0.8em;
+    color: white;
+    font-weight: bold;
+
+    border-radius: 6px;
+    border-width: 0;
+    border-bottom: 2px;
+    border-bottom: 2px solid #6ea23e;
+    transition: 0.2s;
+}
+
+.bit:active {
+    margin-top: 2px;
+    border-width: 0;
+}
+
+.bit:focus {
+    outline: none;
+}
+
+.number-wrapper {
+    margin-left: 4px;
+    max-height: 35px;
+    min-height: 30px;
+    height: 3vw;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.number {
+    white-space: nowrap;
+    height: 3vw;
+}
+
+.timer-wrapper {
+    position: absolute;
+    margin-top: 4.5vmin;
+    margin-left: 1.2vmin;
+    display: flex;
+}
+
+.timer {
+    font-size: 0.8em;
 }

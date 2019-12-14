@@ -1,0 +1,55 @@
+.title {
+    display: flex;
+}
+
+.game {
+}
+
+.separator {
+    height: 40px;
+}
+
+.controller {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dialog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-content {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-restart {
+    padding: 4px 8px;
+    background-color: #88bd57;
+    font-size: 0.8em;
+    color: white;
+    font-weight: bold;
+
+    border-radius: 8px;
+    border-width: 0;
+    border-bottom: 2px;
+    border-bottom: 2px solid #6ea23e;
+    transition: 0.2s;
+}
+
+.btn-restart:active {
+    margin-top: 2px;
+    border-width: 0;
+}
+
+.btn-restart:focus {
+    outline: none;
+}
+
+.white {
+    color: white;
+}

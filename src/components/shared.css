@@ -25,3 +25,17 @@
 .App-link {
     color: #61dafb;
 }
+
+.title {
+    color: white;
+}
+
+.content {
+    max-width: 600px;
+    min-width: 280px;
+    width: 80vw;
+    height: 30vmin;
+    pointer-events: none;
+    color: white;
+    font-size: calc(5px + 2vmin);
+}
