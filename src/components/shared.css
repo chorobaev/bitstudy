@@ -1,0 +1,27 @@
+.App {
+    text-align: center;
+    float: top;
+}
+
+.App-logo {
+    max-width: 600px;
+    min-width: 280px;
+    width: 80vw;
+    height: 30vmin;
+    pointer-events: none;
+}
+
+.main {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}

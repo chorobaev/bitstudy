@@ -1,0 +1,21 @@
+.three-d {
+    padding: 15px 30px;
+    background-color: #88bd57;
+    color: white;
+    font-weight: bold;
+    width: 10%;
+    text-transform: uppercase;
+    border-radius: 8px;
+    border-width: 0;
+    border-bottom: 3px solid #6ea23e;
+    transition: 0.2s;
+}
+
+.three-d:active {
+    margin-top: 3px;
+    border-width: 0;
+}
+
+.three-d:focus {
+    outline: none;
+}
