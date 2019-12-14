@@ -1,5 +1,7 @@
 import React from "react";
 import Modal from "react-modal";
+import whatsapp from "./whatsapp-512.png"
+import {formatSeconds} from "../utils";
 
 Modal.setAppElement('#root');
 
@@ -22,7 +24,7 @@ export default function FinishDialog(props) {
     const time = props.time;
     const min = Math.floor(time / 60);
     const sec = time % 60;
-    const timeText = `${min !== 0 ? `${min} minutes and ` : ""}${sec} seconds`;
+    const timeText = `${min !== 0 ? `${min} minutes and ` : ""}${sec === 0 && min > 0 ? "" : sec} seconds`;
 
     function afterOpenModal() {
     }

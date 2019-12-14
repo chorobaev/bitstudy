@@ -25,6 +25,7 @@
 .dialog-content {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btn-restart {
@@ -52,4 +53,15 @@
 
 .white {
     color: white;
+}
+
+.share-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.share-text {
+    color: white;
+    font-size: 12px;
+    margin: 12px;
 }

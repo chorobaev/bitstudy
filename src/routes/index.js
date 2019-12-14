@@ -12,9 +12,9 @@ export default function Routes() {
     return (
         <Switch>
             <Route path="/" exact component={Menu}/>
-            <Route path="/help" component={Help}/>
-            <Route path="/game" component={Game}/>
-            <Route path="/about" component={About}/>
+            <Route path="/bitstudy/help" component={Help}/>
+            <Route path="/bitstudy/game" component={Game}/>
+            <Route path="/bitstudy/about" component={About}/>
 
             <Route component={Menu}/>
         </Switch>

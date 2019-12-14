@@ -9,17 +9,17 @@ class Menu extends React.Component {
 
     handlePlay() {
         history.push({
-            pathname: "/game",
+            pathname: "/bitstudy/game",
             state: {}
         })
     }
 
     handleHelp() {
-        history.push("/help")
+        history.push("/bitstudy/help")
     }
 
     handleAbout() {
-        history.push("/about")
+        history.push("/bitstudy/about")
     }
 
     render() {
