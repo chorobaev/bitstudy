@@ -5,7 +5,7 @@ This game was created to heps students who are new in binary world.
 <br />If you have any suggestions you can reach me at
 <a href="https://gmail.com"> chorobaev.nurbol@gmail.com</a></p>
 
-To play to go to [https://chorobaev.github.io/bitstudy]()
+To play to go to [https://chorobaev.github.io/bitstudy](https://chorobaev.github.io/bitstudy)
 
 ### How to run:
 
