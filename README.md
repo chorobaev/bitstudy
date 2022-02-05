@@ -1,6 +1,6 @@
 ## Bit Study
 
-This game was created to heps students who are new in binary world.
+This game was created to help students who are new in binary world.
 <br />Bit Study is steel being developed.
 <br />If you have any suggestions you can reach me at
 <a href="https://gmail.com"> chorobaev.nurbol@gmail.com</a></p>
